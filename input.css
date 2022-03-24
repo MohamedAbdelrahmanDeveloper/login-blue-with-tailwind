@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-me : 51, 5, 91; 
+}
+
+.conta-me {
+  @apply container px-4 md:max-w-7xl md:mx-auto ;
+}
+
+*[class*="space-x"] {
+  @apply rtl:space-x-reverse
+}
+
+.links a{
+  @apply px-3 py-3 hover:bg-gray-100 hover:bg-opacity-25 duration-200 rounded
+}
